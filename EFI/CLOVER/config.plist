@@ -704,7 +704,7 @@
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>BootCamp</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
