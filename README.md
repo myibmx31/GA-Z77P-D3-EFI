@@ -1,2 +1,2 @@
-# Ozmosis-GA-H61M-DS2
-Ozmosis for GA-H61M-DS2 BIOS. Perfect for macOS High Sierra HFS+
+# GA-Z77P-D3 Hackintosh
+GA-Z77P-D3 EFI. Perfect for macOS 10.14.4
