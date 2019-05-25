@@ -762,7 +762,7 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
-			<key>Tool</key>
+			<key>Linux</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
@@ -1178,17 +1178,17 @@
 		<key>#Version</key>
 		<string>1.0</string>
 		<key>BiosReleaseDate</key>
-		<string>09/28/2018</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1809280842</string>
+		<string>IM183.88Z.F000.B00.1812191143</string>
 		<key>Board-ID</key>
 		<string>Mac-77F17D7DA9285301</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02706200QXJ0DX1M</string>
+		<string>C02735200QXJ0DX1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1200,7 +1200,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>166.0.0.0.0</string>
+		<string>167.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -1218,9 +1218,9 @@
 		<key>ProductName</key>
 		<string>iMac18,2</string>
 		<key>SerialNumber</key>
-		<string>C02T7WY8J1G5</string>
+		<string>C02V9HZ7J1G5</string>
 		<key>SmUUID</key>
-		<string>00799A79-A12E-4002-8BE4-9750A946FEA8</string>
+		<string>79BA2289-56D2-4241-8AF6-8A5943531A0A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
