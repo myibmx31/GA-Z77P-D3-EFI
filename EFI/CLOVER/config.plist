@@ -65,84 +65,70 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddHDMI</key>
-				<true/>
+				<false/>
 				<key>AddIMEI</key>
 				<false/>
 				<key>AddMCHC</key>
 				<false/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>DeleteUnused</key>
-				<true/>
+				<false/>
 				<key>FakeLPC</key>
 				<false/>
 				<key>FixACST</key>
-				<true/>
+				<false/>
 				<key>FixADP1</key>
-				<true/>
+				<false/>
 				<key>FixAirport</key>
 				<false/>
 				<key>FixDarwin</key>
 				<false/>
 				<key>FixDarwin7</key>
-				<true/>
+				<false/>
 				<key>FixDisplay</key>
-				<true/>
+				<false/>
 				<key>FixFirewire</key>
 				<false/>
 				<key>FixHDA</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIDE</key>
 				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixIntelGfx</key>
 				<false/>
 				<key>FixLAN</key>
-				<true/>
+				<false/>
 				<key>FixMutex</key>
 				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixRegions</key>
-				<true/>
+				<false/>
 				<key>FixS3D</key>
-				<true/>
+				<false/>
 				<key>FixSATA</key>
 				<false/>
 				<key>FixSBUS</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 				<key>FixUSB</key>
-				<true/>
+				<false/>
 				<key>FixWAK</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>Add _SUN property for GIGE</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					UFhTWAhfQURSAAhfUFJXEgYC
-					</data>
-					<key>Replace</key>
-					<data>
-					UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Rename GFX0 to IGPU</string>
@@ -155,48 +141,6 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HDEF to AZAL</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					SERFRg==
-					</data>
-					<key>Replace</key>
-					<data>
-					QVpBTA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename oem _DSM to ZDSM</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0RTTQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WkRTTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
 					</data>
 				</dict>
 			</array>
@@ -227,11 +171,11 @@
 			</dict>
 		</array>
 		<key>FixHeaders</key>
-		<true/>
+		<false/>
 		<key>FixMCFG</key>
-		<true/>
+		<false/>
 		<key>HaltEnabler</key>
-		<true/>
+		<false/>
 		<key>RenameDevices</key>
 		<dict>
 			<key>#_SB.PCI0.RP01.PXSX</key>
@@ -280,11 +224,11 @@
 				<key>#PluginType</key>
 				<false/>
 				<key>CStates</key>
-				<true/>
+				<false/>
 				<key>PStates</key>
-				<true/>
+				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
@@ -620,7 +564,7 @@
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
-			<integer>13</integer>
+			<integer>3</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -631,9 +575,9 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<true/>
+			<false/>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
 			<key>HighCurrent</key>
 			<false/>
 			<key>Inject</key>
@@ -755,18 +699,7 @@
 			<key>Speed</key>
 			<integer>2</integer>
 		</dict>
-		<key>#Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Legacy</key>
-			<false/>
-			<key>Tool</key>
-			<true/>
-		</dict>
 		<key>#TextOnly</key>
-		<false/>
-		<key>CustomIcons</key>
 		<false/>
 		<key>EmbeddedThemeType</key>
 		<string>Daytime</string>
@@ -785,8 +718,10 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<true/>
 			<key>Tool</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>2560x1440</string>
@@ -873,10 +808,19 @@
 			AP///////wAF45AkAQAAAAEcAQSlNR54Ot11pVVOnScLUFS/7wDR
 			wLMAlQCBgIFAgcABAQEBVl4AoKCgKVAwIDUADyghAAAeAAAA/QAy
 			TB5jBAEKICAgICAgAAAA/ABRMjQ5MFcxCiAgICAgAAAA/wBBUDkw
-			ODAxWjAwMDAxAQM=
+			ODAxWjAwMDAxAQMCAx7xSwEDBRQEEx8SAhGQIwkHB4MBAABlAwwA
+			EAACOoAYcTgtQFgsRQAPKCEAAB4BHQByUdAeIG4oVQAPKCEAAB6M
+			CtCKIOAtEBA+lgAPKCEAABiMCtCQIEAxIAxAVQAPKCEAABjwPADQ
+			UaA1UGCIOgAPKCEAABwAAAAAAAAAnQ==
 			</data>
 			<key>Inject</key>
 			<true/>
+			<key>ProductID</key>
+			<string>0x2490</string>
+			<key>VendorID</key>
+			<data>
+			FQc=
+			</data>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -1190,17 +1134,17 @@
 		<key>#Version</key>
 		<string>1.0</string>
 		<key>BiosReleaseDate</key>
-		<string>12/08/2017</string>
+		<string>04/22/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IMP11.88Z.0064.B30.1712081714</string>
+		<string>IMP11.88Z.F000.B00.1904222000</string>
 		<key>Board-ID</key>
 		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02751108CDJG361F</string>
+		<string>C02729108GUJG36A8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1212,7 +1156,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.250.330.0.0</string>
+		<string>220.260.170.0.0</string>
 		<key>Family</key>
 		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
@@ -1230,9 +1174,9 @@
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02VV02PHX87</string>
+		<string>C02V3WZDHX87</string>
 		<key>SmUUID</key>
-		<string>E60C4FE9-F00A-4324-A453-7D577FA4E2A5</string>
+		<string>1613BA86-EC51-4388-BD6F-593EAA24088F</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
