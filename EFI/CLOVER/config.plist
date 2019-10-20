@@ -296,8 +296,6 @@
 		<integer>0</integer>
 		<key>#XMPDetection</key>
 		<string>-1</string>
-		<key>Arguments</key>
-		<string>-rad24</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -1177,17 +1175,17 @@
 		<key>#Version</key>
 		<string>1.0</string>
 		<key>BiosReleaseDate</key>
-		<string>07/26/2019</string>
+		<string>09/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IMP11.88Z.F000.B00.1907261958</string>
+		<string>IMP11.88Z.F000.B00.1909172024</string>
 		<key>Board-ID</key>
 		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02718404CDJG368C</string>
+		<string>C02736101J9JG36JC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1199,7 +1197,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.0.39.151.1</string>
+		<string>1037.0.78.0.0</string>
 		<key>Family</key>
 		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
@@ -1217,9 +1215,9 @@
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02TNVZJHX87</string>
+		<string>C02VC2YXHX87</string>
 		<key>SmUUID</key>
-		<string>D054BE35-D118-4A6E-BFAB-E5E9FC218651</string>
+		<string>7B2AB4C2-185F-4E7B-8F8B-E54C183C247E</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
