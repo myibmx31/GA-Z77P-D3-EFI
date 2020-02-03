@@ -6,6 +6,8 @@
 	<string>GA-Z77P-D3</string>
 	<key>#SIP</key>
 	<true/>
+	<key>#WARNING - 5</key>
+	<string>https://docs.google.com/spreadsheets/d/1kGFz3_kp5xCDRRQpfnIUOvbiHXTmxEgyx97u73ImXXE/edit#gid=0</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -317,6 +319,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string>PS/2 KeyBoard</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -469,6 +487,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -491,6 +511,8 @@
 		<array/>
 		<key>Boot</key>
 		<dict>
+			<key>BuiltinTextRenderer</key>
+			<false/>
 			<key>ConsoleBehaviourOs</key>
 			<string></string>
 			<key>ConsoleBehaviourUi</key>
@@ -507,6 +529,8 @@
 			<string>Max</string>
 			<key>ShowPicker</key>
 			<false/>
+			<key>TakeoffDelay</key>
+			<integer>10000</integer>
 			<key>Timeout</key>
 			<integer>10</integer>
 			<key>UsePicker</key>
@@ -555,7 +579,7 @@
 			<key>RequireVault</key>
 			<false/>
 			<key>ScanPolicy</key>
-			<real>2621699</real>
+			<integer>983299</integer>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -597,7 +621,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string>keepsyms=1 shikigva=256</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>nvda_drv</key>
@@ -647,7 +671,7 @@
 			</array>
 		</dict>
 		<key>WriteFlash</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -655,6 +679,8 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<true/>
 			<key>MLB</key>
 			<string>C02032109R5DC771H</string>
 			<key>ROM</key>
