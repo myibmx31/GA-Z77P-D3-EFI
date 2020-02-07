@@ -1,4 +1,4 @@
-# GA-Z77P-D3 Hackintosh (停止更新 目前只维护 OpenCore 分支)
+# GA-Z77P-D3 (停止更新 目前只维护 OpenCore 分支)
 GA-Z77P-D3 Clover EFI. Perfect for macOS 10.14.6 & 10.15 (Catalina)
 
 | 硬件 | 型号 |
